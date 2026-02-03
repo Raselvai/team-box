@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #10061E;
+  color: #ffffff;
+}
+
+.team_wrapper {
+	padding: 80px 0;
+}
+
+.team_wrapper .team_head {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.team_wrapper .team_head p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #854BFE;
+}
+
+.team_wrapper .team_head h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.team_wrapper .team_item {
+	  margin-top: 50px;
+	  text-align: center;
+}
+
+.team_wrapper .team_item figure {
+	  width: 150px;
+	  height: 150px;
+	  object-fit: cover;
+	  border-radius: 50%;
+		margin: 0 auto;
+}
+
+.team_wrapper .team_item figure img {
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  border-radius: 50%;
+	  transition: 0.4s all ease-in-out;
+}
+
+.team_wrapper .team_item:hover figure img {
+	  transform: scale(1.10);
+}
+
+.team_wrapper .team_item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.team_wrapper .team_item p {
+    color: #9f9f9f;
+    font-size: 14px;
+}
